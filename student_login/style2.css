@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-image: linear-gradient(to top right,rgb(0, 255, 225), rgb(253, 91, 239));
+    min-height: 100%;
+    position: relative;
+    margin: 0;
+    width: 100%;
+}
+
+
+.content{
+    display: flex;
+    background-color: white;
+    position: relative;
+    height: 400px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10%;
+    border-radius: 25px;
+    text-shadow: 5px;
+}
+h1{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    text-decoration: underline;
+    font-size: 50px;
+    color: royalblue;
+    
+}
+form{
+    flex:1;
+    order: 2;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+.log_in{
+    margin-left: 40%;
+    color: red;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+a:focus{
+    color: rgb(255, 4, 25);
+}
+
+
