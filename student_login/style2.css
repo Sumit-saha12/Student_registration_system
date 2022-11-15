@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-image: linear-gradient(to top right,rgb(0, 255, 225), rgb(253, 91, 239));
+    height: 100%;
+    position: relative;
+    margin: 0;
+    width: 100%;
+}
+
+.content{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 50px;
+
+}
+
+.heading{
+    padding-left: 4%;
+    font-size: 20px;
+    text-decoration: underline;
+    color: rgb(113, 1, 102);
+    /* align-items: center; */
+    display: flex;
+    /* padding: 1%; */
+}
+
+.login{
+    display: flex;
+    padding-top: 10%;
+    padding-left: 35%;
+    padding-right: 30%;
+    font-weight: bold;
+    font-size: 25px;
+}
+.form{
+    position: relative;
+}
+.input_login{
+    display: flex;
+    /* position: absolute; */
+    padding-left: 0%;
+    /* padding-right: 50%; */
+    padding-top: 3%;
+}
+.password{
+    display: flex;
+    /* position: absolute; */
+    padding-top: 5%;
+    padding-left: 32%;
+    /* padding-right: 150%; */
+    font-weight: bold;
+    font-size: 25px;
+}
+.input_pass{
+    display: flex;
+    /* padding-left: 12%; */
+    padding-top: 3%;
+    /* position: relative; */
+}
+input{
+    text-align: center;
+    width: 260px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px dotted black;
+}
+.submit{
+    display: flex;
+    padding-left: 13%;
+    padding-top: 9%;
+
+}
+button{
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(233, 230, 222);
+}
+button:focus{
+    background-color: rgb(138, 132, 125);
+}
+.forget{
+    padding-top: 10%;
+    padding-left: 17%;
+}
+.back{
+    padding-top: 3%;
+    padding-left: 30%;
+}
+.new_acnt{
+    padding-top: 3%;
+    padding-left: 28%;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+a:focus{
+    color: yellowgreen;
+}
